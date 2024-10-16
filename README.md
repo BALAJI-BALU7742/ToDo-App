@@ -23,8 +23,7 @@ This app allows users to manage their tasks by adding, completing, and deleting 
 
 To run this project locally, follow these steps:
 
-1. **Clone the repository**:
-   git clone https://github.com/your-username/todo-app.git
+
 **Usage**
 Type a task in the input field and click the "ADD" button to add it to the list.
 Click on a task to toggle its completion status.

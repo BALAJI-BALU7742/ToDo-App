@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ToDo App</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="container">
+        <div class="todo-app">
+            <h2>ToDo App <img src="https://cdn-icons-png.flaticon.com/512/4294/4294574.png" alt="ToDo Icon"></h2>
+            <div class="row">
+                <input type="text" id="myInput" placeholder="Add a new task...">
+                <button type="button" onclick="addTask()">ADD</button>
+            </div>
+            <ul id="myUL">
+                <!-- Task items will be added here dynamically -->
+            </ul>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
